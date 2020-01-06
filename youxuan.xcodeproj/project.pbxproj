@@ -3,25 +3,204 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AC1C4A62351B92D008A277B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1C4A52351B92D008A277B /* AppDelegate.swift */; };
-		3AC1C4A82351B92D008A277B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1C4A72351B92D008A277B /* ViewController.swift */; };
-		3AC1C4AB2351B92D008A277B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1C4A92351B92D008A277B /* Main.storyboard */; };
-		3AC1C4AD2351B92F008A277B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1C4AC2351B92F008A277B /* Assets.xcassets */; };
-		3AC1C4B02351B92F008A277B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1C4AE2351B92F008A277B /* LaunchScreen.storyboard */; };
+		3A1BF17623792FB5001706B3 /* YXFilletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF17523792FB5001706B3 /* YXFilletView.swift */; };
+		3A1BF178237A4BBF001706B3 /* YXShadowLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF177237A4BBF001706B3 /* YXShadowLayerView.swift */; };
+		3A1BF17A237A5DC2001706B3 /* YXShoppDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF179237A5DC2001706B3 /* YXShoppDetailViewModel.swift */; };
+		3A1BF17C237A9F9E001706B3 /* YXArrivaltimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF17B237A9F9E001706B3 /* YXArrivaltimeView.swift */; };
+		3A1BF17E237AA736001706B3 /* YXWholeBasketPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF17D237AA736001706B3 /* YXWholeBasketPriceView.swift */; };
+		3A47C99E23878E71008634FD /* YXCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47C99D23878E71008634FD /* YXCouponViewController.swift */; };
+		3A4ECA46235D4C86001848CF /* YXMineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA45235D4C86001848CF /* YXMineTableViewCell.swift */; };
+		3A4ECA48235D536B001848CF /* YXMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA47235D536B001848CF /* YXMineHeaderView.swift */; };
+		3A4ECA4A235D5FCF001848CF /* YXShadowBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA49235D5FCF001848CF /* YXShadowBaseView.swift */; };
+		3A4ECA4C235D7B31001848CF /* YXMineBottomContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA4B235D7B31001848CF /* YXMineBottomContentView.swift */; };
+		3A4ECA4E235D8A21001848CF /* YXMineCellMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA4D235D8A21001848CF /* YXMineCellMessageView.swift */; };
+		3A4ECA51235E9038001848CF /* YXMineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA50235E9038001848CF /* YXMineViewModel.swift */; };
+		3A4ECA5C235EC7F3001848CF /* YXMineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA5B235EC7F3001848CF /* YXMineModel.swift */; };
+		3A4ECA5E235FE739001848CF /* YXAlreatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA5D235FE739001848CF /* YXAlreatView.swift */; };
+		3A4ECA60235FFAE3001848CF /* YXLittleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA5F235FFAE3001848CF /* YXLittleButtonView.swift */; };
+		3A4ECA62236027F5001848CF /* YXMineOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA61236027F5001848CF /* YXMineOrderViewController.swift */; };
+		3A4ECA6423602836001848CF /* YXUserOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA6323602836001848CF /* YXUserOrderViewController.swift */; };
+		3A4ECA6623602876001848CF /* YXMineCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA6523602876001848CF /* YXMineCouponViewController.swift */; };
+		3A4ECA68236028BE001848CF /* YXReceivingAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA67236028BE001848CF /* YXReceivingAddressViewController.swift */; };
+		3A4ECA6A23602903001848CF /* YXFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA6923602902001848CF /* YXFeedbackViewController.swift */; };
+		3A4ECA6C236034AC001848CF /* YXAddShoppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA6B236034AC001848CF /* YXAddShoppTableViewCell.swift */; };
+		3A4ECA6E236045AC001848CF /* YXBaseCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECA6D236045AC001848CF /* YXBaseCellContentView.swift */; };
+		3A5B53B7238B825400F462FA /* YXBasePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B53B6238B825400F462FA /* YXBasePayViewController.swift */; };
+		3A5B53B9238BA3E500F462FA /* YXBasePayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B53B8238BA3E500F462FA /* YXBasePayModel.swift */; };
+		3A5B53BB238BAA4100F462FA /* YXBasePayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B53BA238BAA4100F462FA /* YXBasePayHeaderView.swift */; };
+		3A5B53BD238BC47C00F462FA /* YXBasePayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B53BC238BC47C00F462FA /* YXBasePayTableViewCell.swift */; };
+		3A5B53BF238CEBDF00F462FA /* YXBasePayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B53BE238CEBDF00F462FA /* YXBasePayViewModel.swift */; };
+		3A8375D2239DEF61004F5562 /* YXClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8375D1239DEF61004F5562 /* YXClassificationViewController.swift */; };
+		3A83ABF4237BCCDC00AC8AB6 /* YXGrabAtOnceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A83ABF3237BCCDC00AC8AB6 /* YXGrabAtOnceView.swift */; };
+		3A83ABF6237BD9DD00AC8AB6 /* YXAddReduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A83ABF5237BD9DD00AC8AB6 /* YXAddReduceView.swift */; };
+		3A9B79F72373FFFC007151B4 /* YXGoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B79F62373FFFC007151B4 /* YXGoodsModel.swift */; };
+		3A9B79F92375043A007151B4 /* YXHomeHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B79F82375043A007151B4 /* YXHomeHeaderViewModel.swift */; };
+		3A9B79FB23751889007151B4 /* YXBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B79FA23751889007151B4 /* YXBannerModel.swift */; };
+		3A9B79FD23753833007151B4 /* YXOpenMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B79FC23753833007151B4 /* YXOpenMarketView.swift */; };
+		3A9B79FF23755189007151B4 /* YXHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B79FE23755189007151B4 /* YXHomeTableViewCell.swift */; };
+		3A9B7A01237555AA007151B4 /* YXBaseTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B7A00237555AA007151B4 /* YXBaseTools.swift */; };
+		3AC1C4CD2351BB1A008A277B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1C4BE2351BB1A008A277B /* Assets.xcassets */; };
+		3AC1C4CE2351BB1A008A277B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1C4BF2351BB1A008A277B /* AppDelegate.swift */; };
+		3AC524172364980400EF781B /* YXAddShoppFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC524162364980400EF781B /* YXAddShoppFooterView.swift */; };
+		3AC524192365CCF700EF781B /* YXAddShoppPhotosBaseVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC524182365CCF700EF781B /* YXAddShoppPhotosBaseVeiw.swift */; };
+		3AC5241B23680D4C00EF781B /* YXChangePhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5241A23680D4C00EF781B /* YXChangePhoneNumberViewController.swift */; };
+		3AC5241E23680E8D00EF781B /* YXAddTitleAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5241C23680E8C00EF781B /* YXAddTitleAddressView.m */; };
+		3AC52423236815DB00EF781B /* SHPNetApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52421236815DA00EF781B /* SHPNetApiManager.m */; };
+		3AC52424236815DB00EF781B /* XFZKNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52422236815DB00EF781B /* XFZKNetAPIClient.m */; };
+		3AC5242723681DCA00EF781B /* YXAreaMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5242623681DCA00EF781B /* YXAreaMode.m */; };
+		3AC5242A2368291200EF781B /* YXChooseAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC524292368291200EF781B /* YXChooseAreaModel.swift */; };
+		3AC5242C236AB5EC00EF781B /* YXLocationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5242B236AB5EC00EF781B /* YXLocationTitleView.swift */; };
+		3ACEC7AC2351CBBB00CA7A0D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7AB2351CBBB00CA7A0D /* MainTabBarController.swift */; };
+		3ACEC7AE2354064100CA7A0D /* YXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7AD2354064100CA7A0D /* YXHomeViewController.swift */; };
+		3ACEC7B02354066500CA7A0D /* YXMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7AF2354066500CA7A0D /* YXMineViewController.swift */; };
+		3ACEC7B223540D9F00CA7A0D /* YXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7B123540D9F00CA7A0D /* YXNavigationController.swift */; };
+		3ACEC7BA23541FA600CA7A0D /* YXTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7B923541FA600CA7A0D /* YXTestViewController.swift */; };
+		3ACEC7BC2354213600CA7A0D /* YXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7BB2354213600CA7A0D /* YXBaseViewController.swift */; };
+		3ACEC7BE2354251E00CA7A0D /* YXLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7BD2354251E00CA7A0D /* YXLoginViewController.swift */; };
+		3ACEC7C02354444000CA7A0D /* YXLoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7BF2354444000CA7A0D /* YXLoginTextFieldView.swift */; };
+		3ACEC7CA23546BD400CA7A0D /* YXLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7C923546BD400CA7A0D /* YXLoginViewModel.swift */; };
+		3ACEC7D42355C35600CA7A0D /* YXProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7D32355C35600CA7A0D /* YXProtocolView.swift */; };
+		3ACEC7D72356AE8500CA7A0D /* YXProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7D62356AE8500CA7A0D /* YXProtocolViewController.swift */; };
+		3ACEC7E32358095500CA7A0D /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7E02358095500CA7A0D /* UIColor-Extension.swift */; };
+		3ACEC7E42358095600CA7A0D /* NSDictionary-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7E12358095500CA7A0D /* NSDictionary-Extension.swift */; };
+		3ACEC7E52358095600CA7A0D /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7E22358095500CA7A0D /* String-Extension.swift */; };
+		3ACEC7E9235809A600CA7A0D /* YXCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEC7E7235809A600CA7A0D /* YXCommon.swift */; };
+		3AD3D71D236ADAF000141BC4 /* YXHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3D71C236ADAF000141BC4 /* YXHomeHeaderView.swift */; };
+		3AD3D721236C0A2D00141BC4 /* YXShoppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3D720236C0A2D00141BC4 /* YXShoppDetailViewController.swift */; };
+		3AD3D725236C128A00141BC4 /* YXHomeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3D724236C128A00141BC4 /* YXHomeListView.swift */; };
+		3AD3D727236C2B8800141BC4 /* UIWindow-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3D726236C2B8800141BC4 /* UIWindow-Extension.swift */; };
+		3AD3D72A236FFFD000141BC4 /* YXHomeShoppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3D729236FFFD000141BC4 /* YXHomeShoppViewModel.swift */; };
+		3AD3D72C23700D0F00141BC4 /* YXTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3D72B23700D0F00141BC4 /* YXTitleModel.swift */; };
+		3ADBDFC723838C6B00758243 /* YXPlaceOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFC623838C6B00758243 /* YXPlaceOrdersViewController.swift */; };
+		3ADBDFC9238391BF00758243 /* YXPayBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFC8238391BF00758243 /* YXPayBaseView.swift */; };
+		3ADBDFCB23839A8C00758243 /* YXPlaceOrdersTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFCA23839A8C00758243 /* YXPlaceOrdersTopView.swift */; };
+		3ADBDFCD2383C02300758243 /* YXPlaceOrdersMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFCC2383C02300758243 /* YXPlaceOrdersMiddleView.swift */; };
+		3ADBDFCF2383C07100758243 /* YXOrdersBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFCE2383C07100758243 /* YXOrdersBaseView.swift */; };
+		3ADBDFD12383C63600758243 /* YXPlaceOrdersBottomRemarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFD02383C63600758243 /* YXPlaceOrdersBottomRemarkView.swift */; };
+		3ADBDFD32383DC3000758243 /* YXPlaceOrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFD22383DC3000758243 /* YXPlaceOrdersViewModel.swift */; };
+		3ADBDFD52383E66300758243 /* YXPlaceOrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDFD42383E66300758243 /* YXPlaceOrdersModel.swift */; };
+		3AE149FA23617C9400166D4A /* YXAddShoppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE149F923617C9400166D4A /* YXAddShoppViewModel.swift */; };
+		3AE7D98023583FCC006D2BCB /* YXAddShoppMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D97F23583FCC006D2BCB /* YXAddShoppMessageViewController.swift */; };
+		3AE7D98423584E02006D2BCB /* YXButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D98223584E02006D2BCB /* YXButtonView.swift */; };
+		3AE7D98523584E02006D2BCB /* YXTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D98323584E02006D2BCB /* YXTextField.swift */; };
+		3AE7D99123584E67006D2BCB /* YXUserDefulatTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D98F23584E67006D2BCB /* YXUserDefulatTools.swift */; };
+		3AE7D993235850F9006D2BCB /* YXAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D992235850F9006D2BCB /* YXAPI.swift */; };
+		3AE7D995235855E9006D2BCB /* YXMoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D994235855E9006D2BCB /* YXMoyaConfig.swift */; };
+		3AE7D9972358621C006D2BCB /* YXNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D9962358621C006D2BCB /* YXNetworkManager.swift */; };
+		3AE7D99B235983A1006D2BCB /* YXMBProgressHUDTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D99A235983A1006D2BCB /* YXMBProgressHUDTools.swift */; };
+		3AEA9AAA238E1773005D501E /* YXOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA9AA9238E1773005D501E /* YXOrderDetailViewController.swift */; };
+		3AEA9AAC238E1DAE005D501E /* YXShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA9AAB238E1DAE005D501E /* YXShoppingCartViewController.swift */; };
+		3AEA9AAE238E2694005D501E /* YXAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA9AAD238E2694005D501E /* YXAddressTableViewCell.swift */; };
+		3AFF58602384DD0A00B55652 /* YXGoodsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF585F2384DD0A00B55652 /* YXGoodsListView.swift */; };
+		3AFF58622385122700B55652 /* YXBaseMiddleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF58612385122700B55652 /* YXBaseMiddleCellView.swift */; };
+		6134981F3F8776C2DDE82036 /* Pods_youxuan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A93C48B49239252860B60 /* Pods_youxuan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030A93C48B49239252860B60 /* Pods_youxuan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_youxuan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EB3877B93A60B3D3B5D84F /* Pods-youxuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youxuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-youxuan/Pods-youxuan.release.xcconfig"; sourceTree = "<group>"; };
+		1BB45EDF11433C23A984ADDD /* Pods-youxuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youxuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-youxuan/Pods-youxuan.debug.xcconfig"; sourceTree = "<group>"; };
+		3A1BF17523792FB5001706B3 /* YXFilletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXFilletView.swift; sourceTree = "<group>"; };
+		3A1BF177237A4BBF001706B3 /* YXShadowLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXShadowLayerView.swift; sourceTree = "<group>"; };
+		3A1BF179237A5DC2001706B3 /* YXShoppDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXShoppDetailViewModel.swift; sourceTree = "<group>"; };
+		3A1BF17B237A9F9E001706B3 /* YXArrivaltimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXArrivaltimeView.swift; sourceTree = "<group>"; };
+		3A1BF17D237AA736001706B3 /* YXWholeBasketPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXWholeBasketPriceView.swift; sourceTree = "<group>"; };
+		3A47C99D23878E71008634FD /* YXCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXCouponViewController.swift; sourceTree = "<group>"; };
+		3A4ECA45235D4C86001848CF /* YXMineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineTableViewCell.swift; sourceTree = "<group>"; };
+		3A4ECA47235D536B001848CF /* YXMineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineHeaderView.swift; sourceTree = "<group>"; };
+		3A4ECA49235D5FCF001848CF /* YXShadowBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXShadowBaseView.swift; sourceTree = "<group>"; };
+		3A4ECA4B235D7B31001848CF /* YXMineBottomContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineBottomContentView.swift; sourceTree = "<group>"; };
+		3A4ECA4D235D8A21001848CF /* YXMineCellMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineCellMessageView.swift; sourceTree = "<group>"; };
+		3A4ECA50235E9038001848CF /* YXMineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineViewModel.swift; sourceTree = "<group>"; };
+		3A4ECA5A235EA360001848CF /* youxuan_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = youxuan_bridge.h; sourceTree = "<group>"; };
+		3A4ECA5B235EC7F3001848CF /* YXMineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineModel.swift; sourceTree = "<group>"; };
+		3A4ECA5D235FE739001848CF /* YXAlreatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAlreatView.swift; sourceTree = "<group>"; };
+		3A4ECA5F235FFAE3001848CF /* YXLittleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXLittleButtonView.swift; sourceTree = "<group>"; };
+		3A4ECA61236027F5001848CF /* YXMineOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineOrderViewController.swift; sourceTree = "<group>"; };
+		3A4ECA6323602836001848CF /* YXUserOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXUserOrderViewController.swift; sourceTree = "<group>"; };
+		3A4ECA6523602876001848CF /* YXMineCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineCouponViewController.swift; sourceTree = "<group>"; };
+		3A4ECA67236028BE001848CF /* YXReceivingAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXReceivingAddressViewController.swift; sourceTree = "<group>"; };
+		3A4ECA6923602902001848CF /* YXFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXFeedbackViewController.swift; sourceTree = "<group>"; };
+		3A4ECA6B236034AC001848CF /* YXAddShoppTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAddShoppTableViewCell.swift; sourceTree = "<group>"; };
+		3A4ECA6D236045AC001848CF /* YXBaseCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBaseCellContentView.swift; sourceTree = "<group>"; };
+		3A5B53B6238B825400F462FA /* YXBasePayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBasePayViewController.swift; sourceTree = "<group>"; };
+		3A5B53B8238BA3E500F462FA /* YXBasePayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBasePayModel.swift; sourceTree = "<group>"; };
+		3A5B53BA238BAA4100F462FA /* YXBasePayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBasePayHeaderView.swift; sourceTree = "<group>"; };
+		3A5B53BC238BC47C00F462FA /* YXBasePayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBasePayTableViewCell.swift; sourceTree = "<group>"; };
+		3A5B53BE238CEBDF00F462FA /* YXBasePayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBasePayViewModel.swift; sourceTree = "<group>"; };
+		3A8375D1239DEF61004F5562 /* YXClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXClassificationViewController.swift; sourceTree = "<group>"; };
+		3A83ABF3237BCCDC00AC8AB6 /* YXGrabAtOnceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXGrabAtOnceView.swift; sourceTree = "<group>"; };
+		3A83ABF5237BD9DD00AC8AB6 /* YXAddReduceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAddReduceView.swift; sourceTree = "<group>"; };
+		3A9B79F62373FFFC007151B4 /* YXGoodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXGoodsModel.swift; sourceTree = "<group>"; };
+		3A9B79F82375043A007151B4 /* YXHomeHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXHomeHeaderViewModel.swift; sourceTree = "<group>"; };
+		3A9B79FA23751889007151B4 /* YXBannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBannerModel.swift; sourceTree = "<group>"; };
+		3A9B79FC23753833007151B4 /* YXOpenMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXOpenMarketView.swift; sourceTree = "<group>"; };
+		3A9B79FE23755189007151B4 /* YXHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXHomeTableViewCell.swift; sourceTree = "<group>"; };
+		3A9B7A00237555AA007151B4 /* YXBaseTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBaseTools.swift; sourceTree = "<group>"; };
 		3AC1C4A22351B92D008A277B /* youxuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youxuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC1C4A52351B92D008A277B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AC1C4A72351B92D008A277B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3AC1C4AA2351B92D008A277B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3AC1C4AC2351B92F008A277B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3AC1C4AF2351B92F008A277B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3AC1C4B12351B92F008A277B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC1C4BE2351BB1A008A277B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AC1C4BF2351BB1A008A277B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AC1C4C02351BB1A008A277B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC524162364980400EF781B /* YXAddShoppFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAddShoppFooterView.swift; sourceTree = "<group>"; };
+		3AC524182365CCF700EF781B /* YXAddShoppPhotosBaseVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAddShoppPhotosBaseVeiw.swift; sourceTree = "<group>"; };
+		3AC5241A23680D4C00EF781B /* YXChangePhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXChangePhoneNumberViewController.swift; sourceTree = "<group>"; };
+		3AC5241C23680E8C00EF781B /* YXAddTitleAddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXAddTitleAddressView.m; sourceTree = "<group>"; };
+		3AC5241D23680E8D00EF781B /* YXAddTitleAddressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXAddTitleAddressView.h; sourceTree = "<group>"; };
+		3AC5241F236815D900EF781B /* SHPNetApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPNetApiManager.h; sourceTree = "<group>"; };
+		3AC52420236815DA00EF781B /* XFZKNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZKNetAPIClient.h; sourceTree = "<group>"; };
+		3AC52421236815DA00EF781B /* SHPNetApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHPNetApiManager.m; sourceTree = "<group>"; };
+		3AC52422236815DB00EF781B /* XFZKNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFZKNetAPIClient.m; sourceTree = "<group>"; };
+		3AC5242523681DC900EF781B /* YXAreaMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXAreaMode.h; sourceTree = "<group>"; };
+		3AC5242623681DCA00EF781B /* YXAreaMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXAreaMode.m; sourceTree = "<group>"; };
+		3AC524292368291200EF781B /* YXChooseAreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXChooseAreaModel.swift; sourceTree = "<group>"; };
+		3AC5242B236AB5EC00EF781B /* YXLocationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXLocationTitleView.swift; sourceTree = "<group>"; };
+		3ACEC7AB2351CBBB00CA7A0D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		3ACEC7AD2354064100CA7A0D /* YXHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXHomeViewController.swift; sourceTree = "<group>"; };
+		3ACEC7AF2354066500CA7A0D /* YXMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMineViewController.swift; sourceTree = "<group>"; };
+		3ACEC7B123540D9F00CA7A0D /* YXNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNavigationController.swift; sourceTree = "<group>"; };
+		3ACEC7B923541FA600CA7A0D /* YXTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXTestViewController.swift; sourceTree = "<group>"; };
+		3ACEC7BB2354213600CA7A0D /* YXBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBaseViewController.swift; sourceTree = "<group>"; };
+		3ACEC7BD2354251E00CA7A0D /* YXLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXLoginViewController.swift; sourceTree = "<group>"; };
+		3ACEC7BF2354444000CA7A0D /* YXLoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXLoginTextFieldView.swift; sourceTree = "<group>"; };
+		3ACEC7C923546BD400CA7A0D /* YXLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXLoginViewModel.swift; sourceTree = "<group>"; };
+		3ACEC7D32355C35600CA7A0D /* YXProtocolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXProtocolView.swift; sourceTree = "<group>"; };
+		3ACEC7D62356AE8500CA7A0D /* YXProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXProtocolViewController.swift; sourceTree = "<group>"; };
+		3ACEC7E02358095500CA7A0D /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		3ACEC7E12358095500CA7A0D /* NSDictionary-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary-Extension.swift"; sourceTree = "<group>"; };
+		3ACEC7E22358095500CA7A0D /* String-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		3ACEC7E7235809A600CA7A0D /* YXCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXCommon.swift; sourceTree = "<group>"; };
+		3AD3D71C236ADAF000141BC4 /* YXHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXHomeHeaderView.swift; sourceTree = "<group>"; };
+		3AD3D720236C0A2D00141BC4 /* YXShoppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXShoppDetailViewController.swift; sourceTree = "<group>"; };
+		3AD3D724236C128A00141BC4 /* YXHomeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXHomeListView.swift; sourceTree = "<group>"; };
+		3AD3D726236C2B8800141BC4 /* UIWindow-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow-Extension.swift"; sourceTree = "<group>"; };
+		3AD3D729236FFFD000141BC4 /* YXHomeShoppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXHomeShoppViewModel.swift; sourceTree = "<group>"; };
+		3AD3D72B23700D0F00141BC4 /* YXTitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXTitleModel.swift; sourceTree = "<group>"; };
+		3ADBDFC623838C6B00758243 /* YXPlaceOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPlaceOrdersViewController.swift; sourceTree = "<group>"; };
+		3ADBDFC8238391BF00758243 /* YXPayBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPayBaseView.swift; sourceTree = "<group>"; };
+		3ADBDFCA23839A8C00758243 /* YXPlaceOrdersTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPlaceOrdersTopView.swift; sourceTree = "<group>"; };
+		3ADBDFCC2383C02300758243 /* YXPlaceOrdersMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPlaceOrdersMiddleView.swift; sourceTree = "<group>"; };
+		3ADBDFCE2383C07100758243 /* YXOrdersBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXOrdersBaseView.swift; sourceTree = "<group>"; };
+		3ADBDFD02383C63600758243 /* YXPlaceOrdersBottomRemarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPlaceOrdersBottomRemarkView.swift; sourceTree = "<group>"; };
+		3ADBDFD22383DC3000758243 /* YXPlaceOrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPlaceOrdersViewModel.swift; sourceTree = "<group>"; };
+		3ADBDFD42383E66300758243 /* YXPlaceOrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPlaceOrdersModel.swift; sourceTree = "<group>"; };
+		3AE149F923617C9400166D4A /* YXAddShoppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAddShoppViewModel.swift; sourceTree = "<group>"; };
+		3AE7D97F23583FCC006D2BCB /* YXAddShoppMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAddShoppMessageViewController.swift; sourceTree = "<group>"; };
+		3AE7D98223584E02006D2BCB /* YXButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXButtonView.swift; sourceTree = "<group>"; };
+		3AE7D98323584E02006D2BCB /* YXTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXTextField.swift; sourceTree = "<group>"; };
+		3AE7D98F23584E67006D2BCB /* YXUserDefulatTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXUserDefulatTools.swift; sourceTree = "<group>"; };
+		3AE7D992235850F9006D2BCB /* YXAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAPI.swift; sourceTree = "<group>"; };
+		3AE7D994235855E9006D2BCB /* YXMoyaConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMoyaConfig.swift; sourceTree = "<group>"; };
+		3AE7D9962358621C006D2BCB /* YXNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetworkManager.swift; sourceTree = "<group>"; };
+		3AE7D99A235983A1006D2BCB /* YXMBProgressHUDTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXMBProgressHUDTools.swift; sourceTree = "<group>"; };
+		3AEA9AA9238E1773005D501E /* YXOrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXOrderDetailViewController.swift; sourceTree = "<group>"; };
+		3AEA9AAB238E1DAE005D501E /* YXShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXShoppingCartViewController.swift; sourceTree = "<group>"; };
+		3AEA9AAD238E2694005D501E /* YXAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXAddressTableViewCell.swift; sourceTree = "<group>"; };
+		3AFF585F2384DD0A00B55652 /* YXGoodsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXGoodsListView.swift; sourceTree = "<group>"; };
+		3AFF58612385122700B55652 /* YXBaseMiddleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXBaseMiddleCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +208,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6134981F3F8776C2DDE82036 /* Pods_youxuan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A4ECA4F235E9019001848CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A4ECA50235E9038001848CF /* YXMineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A4ECA52235E9417001848CF /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				3A4ECA5A235EA360001848CF /* youxuan_bridge.h */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		3A5B53B1238B822C00F462FA /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				3A5B53B3238B822C00F462FA /* Controller */,
+				3A5B53B2238B822C00F462FA /* ViewModel */,
+				3A5B53B4238B822C00F462FA /* Model */,
+				3A5B53B5238B822C00F462FA /* View */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		3A5B53B2238B822C00F462FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A5B53BE238CEBDF00F462FA /* YXBasePayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A5B53B3238B822C00F462FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A5B53B6238B825400F462FA /* YXBasePayViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A5B53B4238B822C00F462FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A5B53B8238BA3E500F462FA /* YXBasePayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A5B53B5238B822C00F462FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A5B53BA238BAA4100F462FA /* YXBasePayHeaderView.swift */,
+				3A5B53BC238BC47C00F462FA /* YXBasePayTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3AC1C4992351B92D008A277B = {
 			isa = PBXGroup;
 			children = (
 				3AC1C4A42351B92D008A277B /* youxuan */,
 				3AC1C4A32351B92D008A277B /* Products */,
+				8331B2560578ACE7BCE90E31 /* Pods */,
+				4D891BF1104AE3B2A64B8228 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +296,381 @@
 		3AC1C4A42351B92D008A277B /* youxuan */ = {
 			isa = PBXGroup;
 			children = (
-				3AC1C4A52351B92D008A277B /* AppDelegate.swift */,
-				3AC1C4A72351B92D008A277B /* ViewController.swift */,
-				3AC1C4A92351B92D008A277B /* Main.storyboard */,
-				3AC1C4AC2351B92F008A277B /* Assets.xcassets */,
-				3AC1C4AE2351B92F008A277B /* LaunchScreen.storyboard */,
-				3AC1C4B12351B92F008A277B /* Info.plist */,
+				3AC1C4B72351BB1A008A277B /* Classes */,
 			);
 			path = youxuan;
+			sourceTree = "<group>";
+		};
+		3AC1C4B72351BB1A008A277B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A5B53B1238B822C00F462FA /* Pay */,
+				3ADBDFC123838BEA00758243 /* CommitOrder */,
+				3ACEC7D52356AE4B00CA7A0D /* Protocols */,
+				3AC1C4C52351BB1A008A277B /* Main */,
+				3AC1C4C92351BB1A008A277B /* Login */,
+				3AC1C4B82351BB1A008A277B /* Home */,
+				3AC1C4C12351BB1A008A277B /* Mine */,
+				3ACEC7DE2358095500CA7A0D /* Tools */,
+				3AC1C4BD2351BB1A008A277B /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3AC1C4B82351BB1A008A277B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1C4B92351BB1A008A277B /* Controller */,
+				3AD3D728236FF3F200141BC4 /* ViewModel */,
+				3AC1C4BA2351BB1A008A277B /* Model */,
+				3AC1C4BB2351BB1A008A277B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3AC1C4B92351BB1A008A277B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7AD2354064100CA7A0D /* YXHomeViewController.swift */,
+				3ACEC7B923541FA600CA7A0D /* YXTestViewController.swift */,
+				3AD3D720236C0A2D00141BC4 /* YXShoppDetailViewController.swift */,
+				3A47C99D23878E71008634FD /* YXCouponViewController.swift */,
+				3AEA9AAB238E1DAE005D501E /* YXShoppingCartViewController.swift */,
+				3A8375D1239DEF61004F5562 /* YXClassificationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AC1C4BA2351BB1A008A277B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AD3D72B23700D0F00141BC4 /* YXTitleModel.swift */,
+				3A9B79FA23751889007151B4 /* YXBannerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AC1C4BB2351BB1A008A277B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AD3D724236C128A00141BC4 /* YXHomeListView.swift */,
+				3AC5242B236AB5EC00EF781B /* YXLocationTitleView.swift */,
+				3AD3D71C236ADAF000141BC4 /* YXHomeHeaderView.swift */,
+				3A9B79FC23753833007151B4 /* YXOpenMarketView.swift */,
+				3A9B79FE23755189007151B4 /* YXHomeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AC1C4BD2351BB1A008A277B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1C4BF2351BB1A008A277B /* AppDelegate.swift */,
+				3AC1C4BE2351BB1A008A277B /* Assets.xcassets */,
+				3AC1C4C02351BB1A008A277B /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3AC1C4C12351BB1A008A277B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1C4C22351BB1A008A277B /* Controller */,
+				3A4ECA4F235E9019001848CF /* ViewModel */,
+				3AC1C4C32351BB1A008A277B /* Model */,
+				3AC1C4C42351BB1A008A277B /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3AC1C4C22351BB1A008A277B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7AF2354066500CA7A0D /* YXMineViewController.swift */,
+				3A4ECA61236027F5001848CF /* YXMineOrderViewController.swift */,
+				3A4ECA6323602836001848CF /* YXUserOrderViewController.swift */,
+				3A4ECA6523602876001848CF /* YXMineCouponViewController.swift */,
+				3A4ECA67236028BE001848CF /* YXReceivingAddressViewController.swift */,
+				3A4ECA6923602902001848CF /* YXFeedbackViewController.swift */,
+				3AC5241A23680D4C00EF781B /* YXChangePhoneNumberViewController.swift */,
+				3AEA9AA9238E1773005D501E /* YXOrderDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AC1C4C32351BB1A008A277B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A4ECA5B235EC7F3001848CF /* YXMineModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AC1C4C42351BB1A008A277B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A4ECA45235D4C86001848CF /* YXMineTableViewCell.swift */,
+				3A4ECA47235D536B001848CF /* YXMineHeaderView.swift */,
+				3A4ECA4B235D7B31001848CF /* YXMineBottomContentView.swift */,
+				3A4ECA4D235D8A21001848CF /* YXMineCellMessageView.swift */,
+				3AEA9AAD238E2694005D501E /* YXAddressTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AC1C4C52351BB1A008A277B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1C4C62351BB1A008A277B /* Controller */,
+				3AC5242823681DE400EF781B /* ViewModel */,
+				3AC1C4C72351BB1A008A277B /* Model */,
+				3AC1C4C82351BB1A008A277B /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3AC1C4C62351BB1A008A277B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7BB2354213600CA7A0D /* YXBaseViewController.swift */,
+				3ACEC7AB2351CBBB00CA7A0D /* MainTabBarController.swift */,
+				3ACEC7B123540D9F00CA7A0D /* YXNavigationController.swift */,
+				3AE7D97F23583FCC006D2BCB /* YXAddShoppMessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AC1C4C72351BB1A008A277B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5242523681DC900EF781B /* YXAreaMode.h */,
+				3AC5242623681DCA00EF781B /* YXAreaMode.m */,
+				3AC524292368291200EF781B /* YXChooseAreaModel.swift */,
+				3A9B79F62373FFFC007151B4 /* YXGoodsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AC1C4C82351BB1A008A277B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5241D23680E8D00EF781B /* YXAddTitleAddressView.h */,
+				3AC5241C23680E8C00EF781B /* YXAddTitleAddressView.m */,
+				3A4ECA6B236034AC001848CF /* YXAddShoppTableViewCell.swift */,
+				3AC524162364980400EF781B /* YXAddShoppFooterView.swift */,
+				3AC524182365CCF700EF781B /* YXAddShoppPhotosBaseVeiw.swift */,
+				3A1BF17B237A9F9E001706B3 /* YXArrivaltimeView.swift */,
+				3A1BF17D237AA736001706B3 /* YXWholeBasketPriceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AC1C4C92351BB1A008A277B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1C4CA2351BB1A008A277B /* Controller */,
+				3ACEC7C12354516B00CA7A0D /* ViewModel */,
+				3AC1C4CB2351BB1A008A277B /* Model */,
+				3AC1C4CC2351BB1A008A277B /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3AC1C4CA2351BB1A008A277B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7BD2354251E00CA7A0D /* YXLoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AC1C4CB2351BB1A008A277B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AC1C4CC2351BB1A008A277B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7BF2354444000CA7A0D /* YXLoginTextFieldView.swift */,
+				3ACEC7D32355C35600CA7A0D /* YXProtocolView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AC5242823681DE400EF781B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AE149F923617C9400166D4A /* YXAddShoppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3ACEC7C12354516B00CA7A0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7C923546BD400CA7A0D /* YXLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3ACEC7D52356AE4B00CA7A0D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7D62356AE8500CA7A0D /* YXProtocolViewController.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3ACEC7DE2358095500CA7A0D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3AE7D98B23584E67006D2BCB /* Tool */,
+				3A4ECA52235E9417001848CF /* OC */,
+				3AE7D98123584E02006D2BCB /* View */,
+				3ACEC7DF2358095500CA7A0D /* Extension */,
+				3ACEC7E7235809A600CA7A0D /* YXCommon.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3ACEC7DF2358095500CA7A0D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEC7E02358095500CA7A0D /* UIColor-Extension.swift */,
+				3ACEC7E12358095500CA7A0D /* NSDictionary-Extension.swift */,
+				3ACEC7E22358095500CA7A0D /* String-Extension.swift */,
+				3AD3D726236C2B8800141BC4 /* UIWindow-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3AD3D728236FF3F200141BC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AD3D729236FFFD000141BC4 /* YXHomeShoppViewModel.swift */,
+				3A9B79F82375043A007151B4 /* YXHomeHeaderViewModel.swift */,
+				3A1BF179237A5DC2001706B3 /* YXShoppDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3ADBDFC123838BEA00758243 /* CommitOrder */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBDFC323838BEA00758243 /* Controller */,
+				3ADBDFC223838BEA00758243 /* ViewModel */,
+				3ADBDFC423838BEA00758243 /* Model */,
+				3ADBDFC523838BEA00758243 /* View */,
+			);
+			path = CommitOrder;
+			sourceTree = "<group>";
+		};
+		3ADBDFC223838BEA00758243 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBDFD22383DC3000758243 /* YXPlaceOrdersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3ADBDFC323838BEA00758243 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBDFC623838C6B00758243 /* YXPlaceOrdersViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3ADBDFC423838BEA00758243 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBDFD42383E66300758243 /* YXPlaceOrdersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ADBDFC523838BEA00758243 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBDFCA23839A8C00758243 /* YXPlaceOrdersTopView.swift */,
+				3ADBDFCC2383C02300758243 /* YXPlaceOrdersMiddleView.swift */,
+				3ADBDFD02383C63600758243 /* YXPlaceOrdersBottomRemarkView.swift */,
+				3AFF585F2384DD0A00B55652 /* YXGoodsListView.swift */,
+				3AFF58612385122700B55652 /* YXBaseMiddleCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AE7D98123584E02006D2BCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AE7D98223584E02006D2BCB /* YXButtonView.swift */,
+				3A4ECA5F235FFAE3001848CF /* YXLittleButtonView.swift */,
+				3A4ECA49235D5FCF001848CF /* YXShadowBaseView.swift */,
+				3AE7D98323584E02006D2BCB /* YXTextField.swift */,
+				3A4ECA5D235FE739001848CF /* YXAlreatView.swift */,
+				3A4ECA6D236045AC001848CF /* YXBaseCellContentView.swift */,
+				3A1BF17523792FB5001706B3 /* YXFilletView.swift */,
+				3A1BF177237A4BBF001706B3 /* YXShadowLayerView.swift */,
+				3A83ABF3237BCCDC00AC8AB6 /* YXGrabAtOnceView.swift */,
+				3A83ABF5237BD9DD00AC8AB6 /* YXAddReduceView.swift */,
+				3ADBDFC8238391BF00758243 /* YXPayBaseView.swift */,
+				3ADBDFCE2383C07100758243 /* YXOrdersBaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AE7D98B23584E67006D2BCB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3AE7D98C23584E67006D2BCB /* Network */,
+				3AE7D98E23584E67006D2BCB /* Other */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3AE7D98C23584E67006D2BCB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5241F236815D900EF781B /* SHPNetApiManager.h */,
+				3AC52421236815DA00EF781B /* SHPNetApiManager.m */,
+				3AC52420236815DA00EF781B /* XFZKNetAPIClient.h */,
+				3AC52422236815DB00EF781B /* XFZKNetAPIClient.m */,
+				3AE7D992235850F9006D2BCB /* YXAPI.swift */,
+				3AE7D994235855E9006D2BCB /* YXMoyaConfig.swift */,
+				3AE7D9962358621C006D2BCB /* YXNetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3AE7D98E23584E67006D2BCB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3AE7D98F23584E67006D2BCB /* YXUserDefulatTools.swift */,
+				3AE7D99A235983A1006D2BCB /* YXMBProgressHUDTools.swift */,
+				3A9B7A00237555AA007151B4 /* YXBaseTools.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4D891BF1104AE3B2A64B8228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030A93C48B49239252860B60 /* Pods_youxuan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8331B2560578ACE7BCE90E31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB45EDF11433C23A984ADDD /* Pods-youxuan.debug.xcconfig */,
+				16EB3877B93A60B3D3B5D84F /* Pods-youxuan.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +680,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AC1C4B42351B92F008A277B /* Build configuration list for PBXNativeTarget "youxuan" */;
 			buildPhases = (
+				BB0E1D0F77558E5CE1FDE40A /* [CP] Check Pods Manifest.lock */,
 				3AC1C49E2351B92D008A277B /* Sources */,
 				3AC1C49F2351B92D008A277B /* Frameworks */,
 				3AC1C4A02351B92D008A277B /* Resources */,
+				BBA27AF8AC3674CEA2969863 /* [CP] Embed Pods Frameworks */,
+				522EF060033B5224E11FC8C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,44 +734,165 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC1C4B02351B92F008A277B /* LaunchScreen.storyboard in Resources */,
-				3AC1C4AD2351B92F008A277B /* Assets.xcassets in Resources */,
-				3AC1C4AB2351B92D008A277B /* Main.storyboard in Resources */,
+				3AC1C4CD2351BB1A008A277B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		522EF060033B5224E11FC8C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youxuan/Pods-youxuan-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youxuan/Pods-youxuan-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-youxuan/Pods-youxuan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB0E1D0F77558E5CE1FDE40A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-youxuan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA27AF8AC3674CEA2969863 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youxuan/Pods-youxuan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youxuan/Pods-youxuan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-youxuan/Pods-youxuan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AC1C49E2351B92D008A277B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC1C4A82351B92D008A277B /* ViewController.swift in Sources */,
-				3AC1C4A62351B92D008A277B /* AppDelegate.swift in Sources */,
+				3AD3D72A236FFFD000141BC4 /* YXHomeShoppViewModel.swift in Sources */,
+				3A4ECA5C235EC7F3001848CF /* YXMineModel.swift in Sources */,
+				3ACEC7E42358095600CA7A0D /* NSDictionary-Extension.swift in Sources */,
+				3ACEC7AC2351CBBB00CA7A0D /* MainTabBarController.swift in Sources */,
+				3A4ECA62236027F5001848CF /* YXMineOrderViewController.swift in Sources */,
+				3ACEC7D72356AE8500CA7A0D /* YXProtocolViewController.swift in Sources */,
+				3AD3D72C23700D0F00141BC4 /* YXTitleModel.swift in Sources */,
+				3AE7D993235850F9006D2BCB /* YXAPI.swift in Sources */,
+				3A5B53BD238BC47C00F462FA /* YXBasePayTableViewCell.swift in Sources */,
+				3ADBDFD52383E66300758243 /* YXPlaceOrdersModel.swift in Sources */,
+				3ACEC7D42355C35600CA7A0D /* YXProtocolView.swift in Sources */,
+				3A9B79FF23755189007151B4 /* YXHomeTableViewCell.swift in Sources */,
+				3AD3D725236C128A00141BC4 /* YXHomeListView.swift in Sources */,
+				3AEA9AAA238E1773005D501E /* YXOrderDetailViewController.swift in Sources */,
+				3ACEC7C02354444000CA7A0D /* YXLoginTextFieldView.swift in Sources */,
+				3ADBDFC9238391BF00758243 /* YXPayBaseView.swift in Sources */,
+				3ADBDFCF2383C07100758243 /* YXOrdersBaseView.swift in Sources */,
+				3A4ECA6A23602903001848CF /* YXFeedbackViewController.swift in Sources */,
+				3AE7D9972358621C006D2BCB /* YXNetworkManager.swift in Sources */,
+				3AE7D99B235983A1006D2BCB /* YXMBProgressHUDTools.swift in Sources */,
+				3AC524192365CCF700EF781B /* YXAddShoppPhotosBaseVeiw.swift in Sources */,
+				3A5B53B7238B825400F462FA /* YXBasePayViewController.swift in Sources */,
+				3A1BF17C237A9F9E001706B3 /* YXArrivaltimeView.swift in Sources */,
+				3A9B79F72373FFFC007151B4 /* YXGoodsModel.swift in Sources */,
+				3A4ECA51235E9038001848CF /* YXMineViewModel.swift in Sources */,
+				3A4ECA4A235D5FCF001848CF /* YXShadowBaseView.swift in Sources */,
+				3AC52423236815DB00EF781B /* SHPNetApiManager.m in Sources */,
+				3A4ECA4C235D7B31001848CF /* YXMineBottomContentView.swift in Sources */,
+				3A4ECA46235D4C86001848CF /* YXMineTableViewCell.swift in Sources */,
+				3AE7D98423584E02006D2BCB /* YXButtonView.swift in Sources */,
+				3ACEC7BE2354251E00CA7A0D /* YXLoginViewController.swift in Sources */,
+				3A4ECA6C236034AC001848CF /* YXAddShoppTableViewCell.swift in Sources */,
+				3AD3D721236C0A2D00141BC4 /* YXShoppDetailViewController.swift in Sources */,
+				3A4ECA48235D536B001848CF /* YXMineHeaderView.swift in Sources */,
+				3AC1C4CE2351BB1A008A277B /* AppDelegate.swift in Sources */,
+				3A9B79F92375043A007151B4 /* YXHomeHeaderViewModel.swift in Sources */,
+				3AEA9AAC238E1DAE005D501E /* YXShoppingCartViewController.swift in Sources */,
+				3ACEC7CA23546BD400CA7A0D /* YXLoginViewModel.swift in Sources */,
+				3A4ECA6423602836001848CF /* YXUserOrderViewController.swift in Sources */,
+				3A4ECA6623602876001848CF /* YXMineCouponViewController.swift in Sources */,
+				3AFF58622385122700B55652 /* YXBaseMiddleCellView.swift in Sources */,
+				3A1BF17A237A5DC2001706B3 /* YXShoppDetailViewModel.swift in Sources */,
+				3A4ECA5E235FE739001848CF /* YXAlreatView.swift in Sources */,
+				3A5B53B9238BA3E500F462FA /* YXBasePayModel.swift in Sources */,
+				3A1BF178237A4BBF001706B3 /* YXShadowLayerView.swift in Sources */,
+				3A4ECA6E236045AC001848CF /* YXBaseCellContentView.swift in Sources */,
+				3A4ECA4E235D8A21001848CF /* YXMineCellMessageView.swift in Sources */,
+				3AC5241B23680D4C00EF781B /* YXChangePhoneNumberViewController.swift in Sources */,
+				3ACEC7BC2354213600CA7A0D /* YXBaseViewController.swift in Sources */,
+				3AE7D99123584E67006D2BCB /* YXUserDefulatTools.swift in Sources */,
+				3AC5241E23680E8D00EF781B /* YXAddTitleAddressView.m in Sources */,
+				3ACEC7E32358095500CA7A0D /* UIColor-Extension.swift in Sources */,
+				3ACEC7B223540D9F00CA7A0D /* YXNavigationController.swift in Sources */,
+				3AE149FA23617C9400166D4A /* YXAddShoppViewModel.swift in Sources */,
+				3AC5242C236AB5EC00EF781B /* YXLocationTitleView.swift in Sources */,
+				3A4ECA68236028BE001848CF /* YXReceivingAddressViewController.swift in Sources */,
+				3A83ABF4237BCCDC00AC8AB6 /* YXGrabAtOnceView.swift in Sources */,
+				3A9B79FB23751889007151B4 /* YXBannerModel.swift in Sources */,
+				3A8375D2239DEF61004F5562 /* YXClassificationViewController.swift in Sources */,
+				3A1BF17E237AA736001706B3 /* YXWholeBasketPriceView.swift in Sources */,
+				3ADBDFD12383C63600758243 /* YXPlaceOrdersBottomRemarkView.swift in Sources */,
+				3AFF58602384DD0A00B55652 /* YXGoodsListView.swift in Sources */,
+				3AE7D995235855E9006D2BCB /* YXMoyaConfig.swift in Sources */,
+				3ACEC7B02354066500CA7A0D /* YXMineViewController.swift in Sources */,
+				3A1BF17623792FB5001706B3 /* YXFilletView.swift in Sources */,
+				3A47C99E23878E71008634FD /* YXCouponViewController.swift in Sources */,
+				3AEA9AAE238E2694005D501E /* YXAddressTableViewCell.swift in Sources */,
+				3A4ECA60235FFAE3001848CF /* YXLittleButtonView.swift in Sources */,
+				3A9B79FD23753833007151B4 /* YXOpenMarketView.swift in Sources */,
+				3AE7D98523584E02006D2BCB /* YXTextField.swift in Sources */,
+				3ADBDFCD2383C02300758243 /* YXPlaceOrdersMiddleView.swift in Sources */,
+				3ADBDFD32383DC3000758243 /* YXPlaceOrdersViewModel.swift in Sources */,
+				3AD3D727236C2B8800141BC4 /* UIWindow-Extension.swift in Sources */,
+				3A9B7A01237555AA007151B4 /* YXBaseTools.swift in Sources */,
+				3A5B53BB238BAA4100F462FA /* YXBasePayHeaderView.swift in Sources */,
+				3ACEC7AE2354064100CA7A0D /* YXHomeViewController.swift in Sources */,
+				3ACEC7BA23541FA600CA7A0D /* YXTestViewController.swift in Sources */,
+				3ADBDFC723838C6B00758243 /* YXPlaceOrdersViewController.swift in Sources */,
+				3A5B53BF238CEBDF00F462FA /* YXBasePayViewModel.swift in Sources */,
+				3A83ABF6237BD9DD00AC8AB6 /* YXAddReduceView.swift in Sources */,
+				3AC5242A2368291200EF781B /* YXChooseAreaModel.swift in Sources */,
+				3ADBDFCB23839A8C00758243 /* YXPlaceOrdersTopView.swift in Sources */,
+				3AE7D98023583FCC006D2BCB /* YXAddShoppMessageViewController.swift in Sources */,
+				3AD3D71D236ADAF000141BC4 /* YXHomeHeaderView.swift in Sources */,
+				3AC5242723681DCA00EF781B /* YXAreaMode.m in Sources */,
+				3AC52424236815DB00EF781B /* XFZKNetAPIClient.m in Sources */,
+				3ACEC7E52358095600CA7A0D /* String-Extension.swift in Sources */,
+				3ACEC7E9235809A600CA7A0D /* YXCommon.swift in Sources */,
+				3AC524172364980400EF781B /* YXAddShoppFooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3AC1C4A92351B92D008A277B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AC1C4AA2351B92D008A277B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3AC1C4AE2351B92F008A277B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AC1C4AF2351B92F008A277B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3AC1C4B22351B92F008A277B /* Debug */ = {
@@ -213,7 +946,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +1001,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,37 +1013,49 @@
 		};
 		3AC1C4B52351B92F008A277B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB45EDF11433C23A984ADDD /* Pods-youxuan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GPDLP6DKN;
-				INFOPLIST_FILE = youxuan/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/youxuan/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zhuoKai.youxuaniOS.youxuan;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zhuoKai.youxuaniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/youxuan/Classes/Tools/OC/youxuan_bridge.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		3AC1C4B62351B92F008A277B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16EB3877B93A60B3D3B5D84F /* Pods-youxuan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GPDLP6DKN;
-				INFOPLIST_FILE = youxuan/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/youxuan/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zhuoKai.youxuaniOS.youxuan;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zhuoKai.youxuaniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/youxuan/Classes/Tools/OC/youxuan_bridge.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

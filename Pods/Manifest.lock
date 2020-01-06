@@ -1,0 +1,127 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
+  - AlipaySDK-iOS (15.6.8)
+  - AMapFoundation (1.5.9)
+  - AMapLocation (2.6.3):
+    - AMapFoundation (~> 1.4)
+  - CYLTabBarController (1.26.0):
+    - CYLTabBarController/Core (= 1.26.0)
+  - CYLTabBarController/Core (1.26.0)
+  - FDFullscreenPopGesture (1.1)
+  - JXCategoryView (1.5.2)
+  - JXPagingView/Paging (1.1.19)
+  - Kingfisher (4.10.1)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.2.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RTRootNavigationController (0.7.1):
+    - RTRootNavigationController/Core (= 0.7.1)
+  - RTRootNavigationController/Core (0.7.1)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.3.0):
+    - SDWebImage/Core (= 5.3.0)
+  - SDWebImage/Core (5.3.0)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+  - TZImagePickerController (3.2.6)
+  - WechatOpenSDK (1.8.6)
+  - zhPopupController (1.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Alamofire
+  - AlipaySDK-iOS
+  - AMapLocation
+  - CYLTabBarController
+  - FDFullscreenPopGesture
+  - JXCategoryView
+  - JXPagingView/Paging
+  - Kingfisher
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - Moya
+  - RTRootNavigationController
+  - SDCycleScrollView
+  - SnapKit
+  - SwiftyJSON
+  - TZImagePickerController
+  - WechatOpenSDK
+  - zhPopupController
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - AlipaySDK-iOS
+    - AMapFoundation
+    - AMapLocation
+    - CYLTabBarController
+    - FDFullscreenPopGesture
+    - JXCategoryView
+    - JXPagingView
+    - Kingfisher
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - Moya
+    - Result
+    - RTRootNavigationController
+    - SDCycleScrollView
+    - SDWebImage
+    - SnapKit
+    - SwiftyJSON
+    - TZImagePickerController
+    - WechatOpenSDK
+    - zhPopupController
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlipaySDK-iOS: 703a55774a37f412410ab04af96c011b91ec58cb
+  AMapFoundation: d7366c966ce366269ede3329b1642967424c3606
+  AMapLocation: dc2c4fde95d72087d73934338160fadc72104bb7
+  CYLTabBarController: 266188f29eb76fbbb476b7af33a2ab6c45246a63
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  JXCategoryView: b284d35a7a8772eada05dd78642233e1eb763ea8
+  JXPagingView: d28c0e245b850cdb47e3f04c07d8c35e30c18531
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: f1afa74b86587c2c63f4e80dfd39b21e3c17b45b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TZImagePickerController: 3900e8d68428ff3a88817efce82ae9e7d9ffebc9
+  WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
+  zhPopupController: 4e6bd734062cb9c7ebe8113568550bade168bed7
+
+PODFILE CHECKSUM: 93e4b923e5ef591a06cb88fddb485113628f1795
+
+COCOAPODS: 1.8.4
